@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Todo-add {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 36px;
+    height: 36px;
+    border: 3px solid #00ad57;
+    border-radius: 50%;
+    cursor: cell;
+    font-size: 26px;
+    color: #ffffff;
+    background-color: #02c463;
+    opacity: 0.5;
+}
+
+.Todo-add:hover,
+.Todo-add:focus,
+.Item-container:hover, 
+.Item-container:focus {
+    opacity: 1;
+}
+
+.Item-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    background: white;
+    opacity: 0.8;
+}
+
+.Item-field {
+    width: 95%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.Item-delete {
+    width: 36px;
+    height: 36px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
